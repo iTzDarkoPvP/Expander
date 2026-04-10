@@ -6,7 +6,7 @@ Este script fue desarrollado **con fines estrictamente educativos** para demostr
 
 El script escribe repetitivamente en un archivo `.txt` grandes volúmenes de datos aleatorios, texto repetitivo, hashes, Base64, y bloques hexadecimales, multiplicando su tamaño rápidamente.
 
-**Característica clave:** La palabra `Expander` se multiplica por 32 desde el inicio (`Expander` → `ExpanderExpander`), y luego se repite aleatoriamente para generar archivos de gran tamaño.
+**Característica clave:** La palabra `Expander` se multiplica por 64 desde el inicio (`Expander` → `ExpanderExpander`), y luego se repite aleatoriamente para generar archivos de gran tamaño.
 
 ---
 
@@ -27,7 +27,7 @@ El script escribe repetitivamente en un archivo `.txt` grandes volúmenes de dat
 
 - Genera un archivo `malware_expander.txt`
 - Escribe líneas continuamente hasta que se presiona `Enter`
-- La palabra `Expander` se duplica al inicio (`Expander` * 32)
+- La palabra `Expander` se duplica al inicio (`Expander` * 64)
 - Incluye:
   - Texto repetitivo `ExpanderExpander...` multiplicado aleatoriamente
   - Bloques hexadecimales
